@@ -1,15 +1,15 @@
 <template>
  
-  <PokemonComp></PokemonComp>
+  <JuegoComp></JuegoComp>
 </template>
 
 <script>
-import PokemonComp from "./components/PokemonComp.vue";
+import JuegoComp from "./components/JuegoComp.vue";
 
 export default {
   name: "App",
   components: {
-    PokemonComp,
+    JuegoComp,
   },
 };
 </script>
